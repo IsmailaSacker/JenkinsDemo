@@ -27,7 +27,7 @@ pipeline {
                 echo 'Realised'
             }
         }
-        stage('Done) {
+        stage('Done') {
             steps {
                 echo 'Application is successfully completed'
             }
