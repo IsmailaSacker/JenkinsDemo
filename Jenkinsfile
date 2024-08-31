@@ -32,6 +32,11 @@ pipeline {
                 echo 'Application is successfully completed'
             }
         }
+        stage('Welldone') {
+            steps {
+                echo 'Successfully Done'
+            }
+        }
 
         
     }
